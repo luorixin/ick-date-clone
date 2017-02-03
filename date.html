@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>客户管理</title>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<meta http-equiv="Cache-Control" content="no-store" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+	<meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
+	<meta name="viewport" content="initial-scale=1,maximum-scale=1"/>
+	 <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  
+	<link rel="stylesheet" type="text/css" href="http://salesstg.optimix.asia/css/index.css">
+
+	<link rel="stylesheet" type="text/css" href="http://xmostg.optimix.asia/stylesheets/nav.css">
+	<link rel="stylesheet" type="text/css" href="http://xmostg.optimix.asia/stylesheets/xmo/application.css?9250">
+	<link rel="stylesheet" type="text/css" href="http://xmostg.optimix.asia/stylesheets/xmo/xmo_components.css?9250">
+
+	<link rel="stylesheet" type="text/css" href="http://salesstg.optimix.asia/css/css/xmo-calendar.css">
+	
+	<script type="text/javascript" src="js/xmo-calendar.js"></script>
+	<script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+
+	 <script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+	 
+	<style type="text/css">
+		
+	</style>
+	
+</head>
+    <body>
+    	<div class="container">
+	    	<!--头部-->
+	    	<div class="myheading">
+			  <nav class="navbar navbar-inverse">
+			    <div class="x-navbar">
+			    <div class="container-fluid">
+			      <div class="navbar-header">
+			        <a href="http://xmo.optimix.asia/zh-cn/campaigns/cross_marketplace_dashboard?client_id=1110" class="navbar-brand" data-toggle="offcanvas">
+			          <img src="images/logo1.png" alt="" style="width:118px">
+			        </a>
+			      </div>
+			        
+			      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">  
+			        <!-- Single button -->
+			        <div class="x-user-main x-search">
+			          <div class="x-user-con x-filter">
+			              <span class="x-top-search-title">
+			                <label style="font-size:12px;">客户</label>
+			                
+			                <label class="x-top-search-main xmo-tooltip" data-position="right" data-width="300">
+			                  <span style="font-weight:bolder">iclick</span>
+			                  
+			                </label>
+			                
+			                  <a href="http://xmo.optimix.asia/zh-cn/clients/1110/edit"><i class="icon-setup icon_act"></i></a>
+			                  
+			              </span>
+			              <span class="x-user-arrow icon-dropdown"></span>
+			          </div>
+			          <div class="x-user-list x-top-search-list">
+			            <span class="nav-arrow"></span>
+			            <div class="x-top-content">
+			              <div class="plus-button">
+			                <a href="http://xmo.optimix.asia/zh-cn/clients/new">
+			                  <i class="plus-ico"></i><span>客户</span>
+			                </a>
+			              </div>
+			              <hr>
+			              <div class="x-top-recent">
+			                <label>最近浏览</label>
+			                <ul>
+			                  
+			                  <li><a href="#" class="client_link" id="1114">
+			                    <span class="xmo-tooltip" data-position="top" data-width="300">
+			                    RegalHotel
+			                    
+			                    </span></a>
+			                  </li>
+			                  
+			                  <li><a href="#" class="client_link" id="1307">
+			                    <span class="xmo-tooltip" data-position="top" data-width="300">
+			                    平安好盈
+			                    
+			                    </span></a>
+			                  </li>
+			                  
+			                  <li><a href="#" class="client_link" id="1110">
+			                    <span class="xmo-tooltip" data-position="top" data-width="300">
+			                    iclick
+			                    
+			                    </span></a>
+			                  </li>
+			                  
+			                </ul>
+			                <hr>
+			              </div>
+			              
+			            <div class="x-top-search">
+			              <div class="x-top-search-search">
+			                <input class="input-search" placeholder="搜索客户">
+			              </div>
+			            </div>
+			              <div class="x-top-result">
+			                <label>所有客户</label>
+			                <ul>
+			                  
+			                  <li><a href="#" class="client_link" id="1316">
+			                    <span class="xmo-tooltip" data-position="top" data-width="300">
+			                    new_client_from_new_nav
+			                    
+			                    </span></a>
+			                  </li>
+			                  
+			                  <li><a href="#" class="client_link" id="1315">
+			                    <span class="xmo-tooltip" data-position="top" data-width="300">
+			                    深圳移动12月
+			                    
+			                    </span></a>
+			                  </li>
+			                  
+			                
+			                  
+			                </ul>
+			              </div>
+			            </div>
+			          </div>
+			        </div>
+			        
+			        <div class="x-top-menu">
+			          <ul class="nav navbar-nav">
+			            <li class="selected"><a href="http://xmo.optimix.asia/zh-cn/campaigns/cross_marketplace_dashboard?client_id=1110">推广计划</a></li>
+			            
+			            <li class="">
+			              
+			              <a href="http://xmo.optimix.asia/zh-cn/clients/1110/goalinfos">资源库</a>
+			              <ul class="dropdown-top-menu" aria-labelledby="dropdownMenu1">
+			                  <span class="nav-arrow"></span>
+			                  <li><a href="http://xmo.optimix.asia/zh-cn/clients/1110/goalinfos">追踪代码</a>
+			                    <ul class="sub-top-menu ">
+			                      <li><a href="http://xmo.optimix.asia/zh-cn/clients/1110/goalinfos">网站转化路径</a></li>
+			                      <li><a href="http://xmo.optimix.asia/zh-cn/clients/1110/universal_tag">通用代码</a></li>
+			                      <li><a href="http://xmo.optimix.asia/zh-cn/clients/1110/goalevents">活动设置</a></li>
+			                      <li><a href="http://xmo.optimix.asia/zh-cn/clients/1110/virtualtags">虚拟标签</a></li>
+			                      <li><a href="http://xmo.optimix.asia/zh-cn/clients/1110/transaction_report">活动日志</a></li>
+			                      <li><a href="http://xmo.optimix.asia/zh-cn/clients/1110/ip_filters">排除 IP 地址</a></li>
+			                      <li><a href="http://xmo.optimix.asia/zh-cn/clients/1110/valid_domains">域验证</a></li>
+			                      
+			                      <li><a href="/zh-cn/shorten_url?client_id=1110">转换短地址</a></li>
+			                     
+			                    </ul> 
+			                    <span class="caret-right"></span>
+			                  </li>
+			                  
+			                  <li>
+			                    <a href="http://xmo.optimix.asia/zh-cn/clients/1110/audiences">目标人群</a>
+			                  </li>
+			                  
+			                </ul>
+			            </li>
+			            <li class=""><a href="http://xmo.optimix.asia/zh-cn/clients/1110/schedule_reports/generate_report">报表</a>
+			              <ul class="dropdown-top-menu" aria-labelledby="dropdownMenu1">
+			                <span class="nav-arrow"></span>
+			                <li><a href="http://xmo.optimix.asia/zh-cn/clients/1110/schedule_reports/generate_report">计划分析</a></li>
+			                <li><a href="http://xmo.optimix.asia/zh-cn/clients/1110/notifications">通知</a></li>
+			                <li><a href="http://xmo.optimix.asia/zh-cn/clients/1110/schedule_reports">定期报表</a></li>
+			              </ul>
+			            </li>
+			            
+			            <li class=""><a href="http://xmo.optimix.asia/zh-cn/media_plan_quotations">策划工具</a>
+			            </li>
+			            
+			          </ul>
+			          
+			        </div>
+			        <!-- Single button -->
+			        <div class="x-user-main  navbar-right ">
+			          <div class="x-user-con">
+			              <!-- <img class="x-user " src="https://git.bznx.net/assets/logo-white-ed4a8c29c69c582954818a833b737e7a.png"> -->
+			              <span class="x-user-dis">管理员:&nbsp;&nbsp;Jacob.sun<br></span>
+			              <span class="x-user-arrow icon-dropdown"></span>
+			          </div>
+			          
+			          <ul class="x-user-list">
+			            <span class="nav-arrow"></span>
+			            
+			                <li>
+			                  <a href="/zh-cn/users" class="x-user-config">
+			                    <span class="iclick-ico icon_setting"></span>平台设定
+			                  </a>
+			                </li>
+			            
+			            <li>
+			              <a href="http://xmo.optimix.asia/zh-cn/users/information" class="x-user-config">
+			                <span class="icon_accountsetting icon_setting"></span>账户资料
+			              </a>
+			            </li>
+			            <li>
+			              <a href="http://xmo.optimix.asia/zh-cn/users/changepassword" class="x-user-config">
+			                <span class="icon_password icon_setting"></span>变更密码
+			              </a>
+			            </li>
+			            <li>
+			              <a href="/zh-cn/admin/logout?back_url=http%253A%252F%252Fxmo.optimix.asia%252Fzh-cn%252Fpretargetings%252F2988%252Fedit_bshare" class="x-user-config">
+			                <span class="icon_logout icon_setting"></span>登出
+			              </a>
+			            </li>
+			          </ul>
+			        </div>
+
+			        <!-- <div class="x-user-con navbar-right x-bell">
+			          <a href="http://xmo.optimix.asia/zh-cn/clients/1110/notifications"><span class="glyphicon glyphicon-bell" aria-hidden="true"></span></a>
+			        </div> -->
+			        
+			        <div class="navbar-form navbar-right">
+			          <a href="javascript:void(0);" onclick="change_lang('en');"><span class="x-lang-en "></span></a>
+			          <a href="javascript:void(0);" onclick="change_lang('zh-cn');"><span class="x-lang-ch selected"></span></a>
+			         </div>
+			         
+			      </div>
+			      </div>
+			    </div>
+			  </nav>
+			</div>
+			<!--左边栏-->
+	    		
+
+
+				<form class="form-horizontal">	
+				<div class="big_section">
+					<div class="control-group t_margin_20">
+					  <label class="control-label">投放日期*</label>
+					  <div class="controls">
+					      <div class="row">
+					           <div class="span">
+					                 <div class="input-append ">
+					                    <input type="text" value="2016-05-04 ~ 2016-06-18" name="date_range" id="toufang" class="span2 required_input xmoCalendarInputSchedule">
+					                    <input type="hidden" class="exclude_dates" name="exclude_dates" id="exclude_dates" value="">
+					                    <span class="add-on"><i class="icon-calendar icon_trigger r_margin_0"></i></span>
+					                 </div>
+					           </div>
+					      </div>
+
+					      
+					  </div>
+					</div>
+				</div>
+					<div class="control-group t_margin_20">
+					  <label class="control-label">匀速日期*</label>
+					  <div class="controls" id="yunsu">
+					      <div class="row">
+					           <div class="span">
+					                 <div class="input-append ">
+					                    <input type="text" value="" name="date_range" id="appendedInput" class="span2 required_input xmoCalendarInputSchedule">
+					                    <input type="hidden" class="exclude_dates" name="exclude_dates" id="exclude_dates" value="">
+					                    <span class="add-on"><i class="icon-calendar icon_trigger r_margin_0"></i></span>
+					                    <input type="" class="exclude_dates" name="exclude_dates" id="exclude_dates1464688819982" value="">
+					                 </div>
+					           </div>
+					      </div>
+
+					      <div class="row">
+					         <div class="span">
+					            <div class="pull-left header_add_new_link" style="margin-top: -6px;">
+				                    <a href="javascript:void(0)" style="margin-left:3px;text-decoration: underline;color:#e83828;" id="add_pl">Add</a>
+				                  </div>
+					         </div>
+					      </div>
+					  </div>
+					</div>
+				</div>
+			</form>
+		</div>	
+
+					
+		<div class="clearfooter"></div>
+			<div class="myfooter">
+			    <label class="x-footer">
+			      Copyright © 2015  iClick Interactive Asia Limited. All Rights Reserved.
+			        <span>| <a target="_blank" href="/zh-cn/admin/send_file_upload_release_notes">产品更新日志
+			        </a></span>
+			      <span>| <a target="_blank" href="/templates/xmo_help.pdf" onclick="_xmoIstag1();">幫助中心</a></span>
+			      <span>| <a href="/zh-cn/privacy_policy">隐私声明</a></span>
+			    </label>
+			    <label class="x-footer">10.1.1.63 v9.26.0(建议采用浏览器: Internet Explorer 8.0 and 9.0, Chrome 8.0+, Firefox 3.5+, Safari 1.0+, Opera V11+.)</label>
+			  </div>
+    <script type="text/javascript">
+    	
+		initCalendar("toufang",[],true);
+		var initdisable = [];
+		getNewInitDisable("toufang");
+		
+		initCalendar("appendedInput",initdisable,false);
+    	function getNewInitDisable(id){
+    		initdisable=[];
+    		var toufangval = $("#"+id).val();
+			if (toufangval!="") {
+				var toufangArr = toufangval.split(" ~ ");
+				var toufangExclude = $("#"+id).next().val();
+				if (toufangExclude!="") {
+					var toufangExcludeArr = toufangExclude.split(",");
+					for (var i = 0; i < toufangExcludeArr.length; i++) {
+						initdisable.push(toufangExcludeArr[i]);
+					};
+				};
+				initdisable.push("1980-12-11 ~ "+toufangArr[0]);
+				initdisable.push(toufangArr[1]+" ~ 3000-12-11");
+			};
+    	}
+		function initCalendar(id,disabledDate,canCancel){
+			return new xmoCalendar({
+				inputId : '#'+id,
+				// lang : 'EN',
+				lang : "CN", //"CN" "EN"
+				initTime : '2013-10-28',
+				disabledDate:disabledDate,
+				canCancel:canCancel,
+				submitCallback : function(that){
+				    refresh_remain(id,that);
+				}
+			})
+		}
+    	function refresh_remain(id,that){
+    		var newDisabledDate=[];
+    		if (id=="toufang") {
+    			getNewInitDisable(id);
+    			that.wrapperBox.nextAll().remove();
+    			$("#yunsu").find(".input-append").each(function(){
+					if ($(this).find(".xmoCalendarInputSchedule").length>0) {
+						$(this).find("input").val("");
+						var rebuildId = $(this).find(".xmoCalendarInputSchedule").attr("id");
+						initCalendar(rebuildId,initdisable);
+					};
+	    		})
+	    		return false;
+    		};
+    		
+    		if ($("#"+id).parent().parent().parent().nextAll().length>1) {
+    			for (var i = 0; i < initdisable.length; i++) {
+    				newDisabledDate.push(initdisable[i]);
+    			};
+	    		if($("#"+id).val().indexOf(" ~ ")>-1){
+	    			newDisabledDate.push($("#"+id).val());
+	    		}
+	    		$("#"+id).parent().parent().parent().prevAll().each(function(){
+	    			if($(this).find(".xmoCalendarInputSchedule").val().indexOf(" ~ ")>-1){
+	    				newDisabledDate.push($(this).find(".xmoCalendarInputSchedule").val());
+	    			}
+	    		})
+	    		
+    			that.wrapperBox.nextAll().remove();
+	    		
+	    		$("#"+id).parent().parent().parent().nextAll().each(function(){
+					if ($(this).find(".xmoCalendarInputSchedule").length>0) {
+						$(this).find("input").val("");
+						var rebuildId = $(this).find(".xmoCalendarInputSchedule").attr("id");
+						
+						initCalendar(rebuildId,newDisabledDate,false);
+					};
+	    		})
+    		};
+    	}
+    	$(".header_add_new_link").on("click",function(){
+    		var that = this;
+    		var id = new Date().getTime();
+    		var $parentClone=$(that).parent().parent();
+    		var disabledDate=[];
+    		for (var i = 0; i < initdisable.length; i++) {
+				disabledDate.push(initdisable[i]);
+			};
+    		var cloneDateHtml = $("#appendedInput").parent().parent().parent().clone();
+    		cloneDateHtml.find("input").each(function(){
+    			$(this).val("");
+    			$(this).attr("id",$(this).attr("id")+id);
+    		})
+    		
+
+    		$parentClone.parent().find(".xmoCalendarInputSchedule").each(function(i){
+    			if($(this).val()!=""){
+
+					disabledDate.push($(this).val());
+    				
+    			}
+    		})
+    		$parentClone.before(cloneDateHtml);
+    		var calendarClone = initCalendar("appendedInput"+id,disabledDate,false);
+
+
+    	})
+    </script>
+</body>
+</html>
